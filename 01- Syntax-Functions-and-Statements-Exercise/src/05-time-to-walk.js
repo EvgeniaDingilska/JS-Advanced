@@ -2,7 +2,7 @@
 function timeToWalk(steps, stepsLength, km) {
 
     let distance = steps * stepsLength;
-    let speed = km;
+    let speed = km / 3.6;
     let time = distance / speed;
     let rest = Math.floor(distance / 500);
  
